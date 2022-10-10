@@ -14,15 +14,18 @@
 }
 
 body{
-    background-image: linear-gradient(45deg, #202020, #000000);
-}
+    background-image: linear-gradient(90deg, #202020, #000000);
+} 
 
 #name{
     color: whitesmoke;
     font-family: 'Gotham', sans-serif;
     font-weight: bold;
     font-size: 150px;
-    text-align: center;
+}
+
+p{
+    margin: 0px;
 }
 
 #text{
@@ -30,5 +33,18 @@ body{
     font-family: 'Gotham', sans-serif;
     font-weight: 150px;
     font-size: 16px;
-    text-align: center;
+}
+
+#container1{
+    display: flex;
+    align-items: center;
+}
+
+#profiles img{
+    width: 80%;
+}
+
+#abouts{
+    float: left;
+    margin-left: 300px;
 }
